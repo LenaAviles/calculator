@@ -1,0 +1,61 @@
+@blue: lighten(CadetBlue, 10%);
+.font {
+    font-family: 'Montserrat', sans-serif;
+    color: @blue;
+    font-weight: 700;
+}
+.calc {
+    margin: 10px;
+    width: 250px;
+    height: 380px;
+    border: 3px solid @blue;
+    border-radius: 10px;    
+}
+
+.header {
+    width: 250px;
+    height: 35px;
+    background-color: @blue;
+    margin: 10px 0;
+    padding: 0 10px;
+    box-sizing: border-box;    
+    text-align: right;
+    line-height: 35px;
+    .font;
+    color: white;   
+}
+
+.input-field {
+    width: 226px;
+    height: 30px;
+    margin: 0 10px;
+    border: 3px solid @blue;
+    border-radius: 5px;
+    text-align: right;
+    .font;
+    font-size: 22px;
+}
+
+.output {
+    .font;
+    width: 90px;
+    height: 30px;
+    background-color: @blue;
+    margin: 10px 10px 0px 150px;    
+}
+
+.panel {
+    margin: 12px 9px;
+}
+
+.button {
+    float: left;
+    margin: 5px;
+    width: 42px;
+    height: 42px;
+    border: 3px solid @blue;
+    border-radius: 5px;
+    text-align: center;
+    .font;
+    line-height: 42px;
+}
